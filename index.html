@@ -2,13 +2,207 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Malay Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,300;1,800&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Malay</title>
   </head>
   <body>
-    <div id="root">not render</div>
+    <div class="modal pop-in">
+      <ul class="modal-view">
+        <li>
+          Home
+          <hr />
+        </li>
+        <li>
+          About Me
+          <hr />
+        </li>
+        <li>
+          Contact Us
+          <hr />
+        </li>
+      </ul>
+    </div>
+    <section class="hero">
+      <header class="nav-bar">
+        <img
+          src="/src/images/logo-transparent-png.png"
+          alt="logo img"
+          class="logo-img"
+        />
+        <div class="hero-container">
+          <nav class="menu-nav">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Me</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hamburger-out">
+          <img
+            src="src/images/hamburger.png"
+            alt="hamburger"
+            class="hamburger"
+          />
+        </div>
+      </header>
+      <article class="intro">
+        <div class="about">
+          <h1>Malay Chandan</h1>
+          <p class="expertise">Full Stack Developer</p>
+        </div>
+        <div class="social-icons">
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/malay1/"
+              ><img src="./src/images/linkedin.png" class="icons-image"
+            /></a>
+          </div>
+          <div class="icons">
+            <a href="https://github.com/mlychndn"
+              ><img
+                src="./src/images/github.png"
+                alt="github logo"
+                class="icons-image"
+            /></a>
+          </div>
+          <div class="icons">
+            <div>
+              <a href="https://twitter.com/">
+                <img
+                  src="./src/images/twitter.png"
+                  alt="twitter logo"
+                  class="icons-image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="tech">
+        <div class="tech-stack">
+          <div class="img-stack">
+            <img
+              src="./src/images/mongodb.svg"
+              alt="mongodb image"
+              class="stack-icon"
+            />
+          </div>
+          <div class="img-stack">
+            <img
+              src="./src/images/express.png"
+              alt="express image"
+              class="stack-icon"
+            />
+          </div>
+          <div class="img-stack">
+            <img
+              src="./src/images/react.png"
+              alt="react image"
+              class="stack-icon"
+            />
+          </div>
+          <div class="img-stack">
+            <img
+              src="./src/images/nodejs.png"
+              alt="node image"
+              class="stack-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="web-quotes">
+        <p>lorem ipsum dolor sit amet, consectetur adipis</p>
+      </div>
+    </section>
+    <section class="about-me">
+      <h2 class="about-me-title">About me</h2>
+      <div class="about-container">
+        <div class="about-para">
+          <p>Thanks, for coming on my portfolio.</p>
+          <p>I am a Mern Stack Developer with a experience of 5 years.</p>
+          <p>
+            I have worked on different projects, which is running on production
+            with no defects.
+          </p>
+          <p>Watch my projects in below section 👇🏻</p>
+        </div>
+        <div class="my-img">
+          <img
+            src="./src/images/profile-img.jpg"
+            alt="profile image"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="project-container">
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="card">
+          <img src="./src/images/youtube.jpeg" class="card-image" />
+          <div class="card-description">
+            <div class="card-description-child">
+              <h3>Youtube</h3>
+              <p>Stream Application</p>
+              <p>Watch or create your favourite video</p>
+              <p>Streaming free</p>
+            </div>
+            <hr />
+            <button class="card-button">View</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/images/dhaba.jpg" class="card-image" />
+          <div class="card-description">
+            <div class="card-description-child">
+              <h3>Food Dhaba</h3>
+              <p>Food Ordering app</p>
+              <p>Instannt delivery, within 15mins</p>
+              <p>Desi swad</p>
+            </div>
+            <hr />
+            <button class="card-button">View</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/images/blogger.jpg" class="card-image" />
+          <div class="card-description">
+            <div class="card-description-child">
+              <h3>The Blogger</h3>
+              <p>Create and Make your blogs</p>
+              <p>Read blogs of diffrent types</p>
+              <p>Get blog template free</p>
+            </div>
+            <hr />
+            <button class="card-button">View</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/images/tic.jpg" class="card-image" />
+          <div class="card-description">
+            <div class="card-description-child">
+              <h3>Tic Toc toe</h3>
+              <p>Have some fun with tic toe game</p>
+              <p>Do the time pass in free time</p>
+              <p>Dare your friends to win!</p>
+            </div>
+            <hr />
+            <button class="card-button">View</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <h4>created and maintained by Malay Chandan</h4>
+      <p>contact me on mlychndn@gmail.com</p>
+    </footer>
+    <script src="index.js"></script>
   </body>
-  <script type="module" src="src/app.js"></script>
 </html>

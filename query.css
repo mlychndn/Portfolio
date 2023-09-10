@@ -1,0 +1,124 @@
+/* 16*84 == 1344px for small laptops*/
+@media (max-width: 84em) {
+  .about {
+    font-size: 4.4rem;
+  }
+
+  .expertise {
+    font-size: 3rem;
+  }
+
+  .about-me {
+    font-size: 2.4rem;
+  }
+
+  .project {
+    gap: 2rem;
+  }
+
+  .card-description-child > h3 {
+    font-size: 2rem;
+  }
+
+  .card-description-child > p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .tech {
+    margin-top: 8rem;
+  }
+
+  .project {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .card {
+    width: 35rem;
+    height: 38rem;
+    /* background-color: coral; */
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 47em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .hero {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .hamburger {
+    width: 7rem;
+    height: 7rem;
+    padding: 2px 0;
+  }
+
+  .about {
+    margin: 11.8rem 4rem;
+    font-size: 2.6rem;
+    color: #1e5162;
+  }
+
+  .expertise {
+    font-size: 2rem;
+  }
+
+  .tech {
+    margin-top: 12.8rem;
+  }
+
+  .tech-stack {
+    width: 50rem;
+    gap: 2.5rem;
+  }
+
+  .web-quotes {
+    margin: 4rem 0;
+  }
+
+  .about-me-title {
+    margin: 3.2rem auto;
+    margin-bottom: 0;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-para {
+    padding: 2rem 3rem;
+  }
+
+  .profile-img {
+    margin-top: 4rem;
+    height: 35rem;
+    width: 35rem;
+    border-radius: 50%;
+  }
+  .card {
+    width: 45rem;
+    height: 48rem;
+  }
+
+  .card-description-child > h3 {
+    font-size: 3rem;
+  }
+
+  .card-description-child > p {
+    font-size: 2rem;
+  }
+}
